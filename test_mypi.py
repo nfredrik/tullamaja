@@ -10,3 +10,7 @@ def test_get_pi_returns_correct_value():
     assert (
         actual_pi == expected_pi
     ), "get_pi() should return the value of math.pi"
+
+
+def test_more_stuff():
+    assert True, "This test should pass"
