@@ -1,4 +1,5 @@
 import math
+from assertpy import assert_that
 from mypi import (
     get_pi,
 )  # Make sure to replace 'your_module' with the actual module name
@@ -14,3 +15,4 @@ def test_get_pi_returns_correct_value():
 
 def test_more_stuff():
     assert True, "This test should pass"
+    assert_that(1 + 1).described_as("Error this is wrong!").is_equal_to(2)

@@ -110,6 +110,16 @@ files = [
 frozenlist = ">=1.1.0"
 
 [[package]]
+name = "assertpy"
+version = "1.1"
+description = "Simple assertion library for unit testing in python with a fluent API"
+optional = false
+python-versions = "*"
+files = [
+    {file = "assertpy-1.1.tar.gz", hash = "sha256:acc64329934ad71a3221de185517a43af33e373bb44dc05b5a9b174394ef4833"},
+]
+
+[[package]]
 name = "attrs"
 version = "23.2.0"
 description = "Classes Without Boilerplate"
@@ -882,4 +892,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "5bfc6e91ff08722c1cefd05d6b6b8cada18bffd6d1735fb2fb9c781a0a9e01c8"
+content-hash = "9ea5aa690885b69108156756c9aa2bff0af9e631569939a2ff6418c74474f6b0"
